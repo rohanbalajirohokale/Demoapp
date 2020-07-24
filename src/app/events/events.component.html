@@ -1,0 +1,16 @@
+<div class="padd">
+<div class="row mt-5">
+  <div class="col-md-4 mb-3" *ngFor="let Rohan of Rohan|async">
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">{{Rohan.Name}}</h5>
+        <p class="card-text">{{Rohan.Desicription}}</p>
+        <a href="#" class="btn btn-primary">Take Admission</a>
+      </div>
+      <div class="card-footer text-muted">
+        {{Rohan.Teacher}}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
